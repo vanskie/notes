@@ -1,0 +1,14 @@
+						Starting with bug bounties!
+
+	
+	1. HTML, CSS, Javascript - You need to know the basics to then have something to build your security skills upon.
+		- Timeframe to create a working website - Sunday 19th of January 23:59
+		- Requirements to consider a website "working":
+			- Sing up form
+			- Hashing passwords
+			- DB to store hashed passwords
+			- A non signed in user page
+			- A singed in user page
+		
+		- After creating a working website you need to look into how to deploy it on a server ...
+  	
