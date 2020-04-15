@@ -1,6 +1,13 @@
-set wrap
-set number
+syntax on
 set tabstop=4
-set shiftwidth=4
-set expandtab
+filetype on
+"set nu
+"set ruler
+set mouse=a
+"set list
+set number
+set clipboard=unnamed
+set autoindent
 
+"spellchecker for .txt files
+autocmd FileType text setlocal spell spelllang=en_us
