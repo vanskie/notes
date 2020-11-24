@@ -89,12 +89,18 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
+alias '..'='cd ..'
+alias ffuf='~/go/bin/ffuf'
+alias sublist3r='~/tools/Sublist3r/sublist3r.py'
+alias eyewitness='/home/vanskie/tools/EyeWitness/Python/EyeWitness.py'
+alias linkfinder='/home/vanskie/tools/LinkFinder/linkfinder.py'
+
 
 # Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
+# sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Alias definitions.
@@ -116,3 +122,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#export CLICOLOR=1
+#export LSCOLORS=ExFxBxDxCxegedabagacad
+
+bash '/home/vanskie/reminderBoard.sh'
+echo '-----------------------'
+cat '/home/vanskie/note_keeping/inspiration'
+echo '-----------------------'
+cat '/home/vanskie/plan/plan_current'
