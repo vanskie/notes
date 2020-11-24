@@ -8,6 +8,6 @@ set mouse=a
 set number
 set clipboard=unnamed
 set autoindent
+set smartindent
 
-"spellchecker for .txt files
-autocmd FileType text setlocal spell spelllang=en_us
+autocmd FileType python setlocal smartindent shiftwidth=4 expandtab tabstop=4 smarttab softtabstop=4 
